@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/registro.css">
+    <script src="https://kit.fontawesome.com/5ca3312b29.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   
+    <title>Formulario de registro </title>
+</head >
+
+<body>
+    <div id="datos" class="datos"><a href="#"> Datos registrados</a></div>
+    <div id="ocultarform" class="ocultarform">
+   
+    <h1>Formulario de registro </h1><br>
+    <div class="containerfomulario" >
+
+        <form   class="person-form" id="person-form">
+        <!-- <form action="https://formsubmit.co/alexyesid711@gmail.com" method="POST"   class="person-form"> -->
+            <label for="">Nombre </label> <br>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre" name="nombre" required><br>
+            <label for="">Apellido </label> <br>
+            <input type="text" id="apellido" placeholder="Ingresa tu apellido" name="apellido" required><br>
+            <label for="">Telefono </label> <br>
+            <input type="tel" id="telefono" placeholder="Ingresa tu teléfono" name="telefono" required><br>
+            <label for="">Direccion </label> <br>
+            <input type="text" id="direccion" placeholder="Ingresa tu dirección" name="direccion" required><br>
+            <label for="">email </label> <br>
+            <input type="email" id="email" placeholder="Ingresa tu email" name="email" required><br>
+            <label for="">Pais </label> <br>
+            <input type="text" id="pais" placeholder="Ingresa tu país" name="pais" required><br>
+            <label for="">Descripcion </label> <br>
+            <textarea cols="50" rows="10" id="descripcion" name="descripcion"></textarea><br>
+          
+ <div class="yacuenta">
+
+    <a href="../login/login.html" ><span>Ya tengo cuenta</span> Login</a>
+ </div> 
+ <br>         
+            <button data-btn type="submit">Agregar</button>
+            <!-- <input type="hidden" name="_next" value="../paginaPrincipal/paginaPrincipal.html"> -->
+            <!-- <input type="hidden" name="_captcha" value="false"> -->
+        </form>
+    </div>
+         
+</div>
+    <div class="tabla">
+        <table id="person-table" class="person-table">
+     
+           
+            <thead>
+            
+
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Teléfono</th>
+                    <th>Dirección</th>
+                    <th>Email</th>
+                    <th>País</th>
+                    <th>Descripción</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+              
+
+                <!-- Aquí se mostrarán los registros de personas -->
+            </tbody>
+        </table>
+    </div>
+    <script src="./js/registro.js"></script>
+</body>
+
+</html>

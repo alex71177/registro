@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    transition:  1s all;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: url("../registro/imagenes/degradado3.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.person-form{
+    padding: 20px;
+    box-shadow: 0px 4px 6px 3px rgb(199, 196, 196);
+   
+}
+.person-form>input{
+    text-align: center;
+    font-size: 15px;
+}
+.datos{
+    
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    text-shadow: rgb(235, 4, 235) 2px 2px 2px , rgb(4, 235, 177) 2px 2px 2px , rgb(235, 4, 235) 2px 2px 2px;
+}
+a{
+   list-style: none;
+   text-decoration: none; 
+  color: rgb(104, 248, 9);
+   padding: 10px;
+
+}
+h1{
+    text-align: center;
+  background-image: linear-gradient(to top,green,yellow,black);
+-webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+background-clip: text;
+
+
+
+}
+.container,.containerfomulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-form{
+    padding: 20px;
+}
+thead{
+    color: aqua;
+}
+thead th,tbody td{
+    padding: 20px;
+}
+label{
+    color: yellow;
+}
+ input{
+ width:97%;
+ padding: 6px;
+ background: transparent;
+ 
+}
+
+input:hover::placeholder{
+  
+    opacity: 0;
+  
+}
+.btnbotones{
+    display: flex;
+}
+button {
+    width: 99%;
+    padding: 10px;
+   
+    border-radius: 4px;
+}
+button:hover{
+    background: #0205d8;
+}
+table {
+   position: absolute;
+   margin-left:100px;
+margin-top: 200px;
+}
+.person-table{
+    display: none;
+}
+
+
+textarea{
+    background: transparent;
+}
+
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+.yacuenta a{
+text-decoration: underline rgb(241, 3, 210);
+margin-left: 100px;
+color: white;
+}
